@@ -21,6 +21,7 @@ const Title = styled.h2`
   font-size: calc(1rem + 1.5vw);
   margin-top: 1.5rem;
   position: relative;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.21);
   &::before {
     content: "";
     height: 1px;
