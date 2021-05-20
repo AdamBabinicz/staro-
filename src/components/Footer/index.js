@@ -48,7 +48,7 @@ const Footer = () => {
     <FOOTER>
       <LeftText>Radom 2021 - {new Date().getFullYear()}.</LeftText>
       <RightText>
-        Skontaktuj się ze mną przez 😉
+        Skontaktuj się ze mną przez 😎
         <a href="https://twitter.com/" target="_blank" rel="noreferrer">
           <img src={Twitter} alt="Twitter" />
         </a>
