@@ -14,6 +14,10 @@ const Headers = styled.header`
   position: relative;
   z-index: 500;
   text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.21);
+
+  @media only screen and (max-width: 40em) {
+    padding: 0.5rem 1rem;
+  }
 `;
 
 const Logo = styled.a`
