@@ -126,6 +126,10 @@ const Title = styled.h1`
 const SubText = styled.h5`
   font-size: calc(0.5rem + 0.5vw);
   color: var(--nav3);
+
+  @media only Screen and (max-width: 40em) {
+    font-size: calc(0.7rem + 0.5vw);
+  }
 `;
 
 const CTA = styled.button`
