@@ -168,7 +168,7 @@ const About = () => {
               młodości. Jest to czas, który przebiega bardzo różnie u różnych
               ludzi – odcieni starości jest tak wiele, jak wiele jest ludzkich
               historii."
-              <br />
+              <br /> <br />
               <em>https://seni.pl/pl_PL/baza-wiedzy-seni/odcienie-starosci</em>
             </Text>
             <div>
