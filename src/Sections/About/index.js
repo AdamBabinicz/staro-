@@ -120,6 +120,7 @@ const Text = styled.h4`
 
   @media only Screen and (max-width: 40em) {
     margin-top: 3rem;
+    font-size: 1rem;
   }
 `;
 const Circle = styled.span`
