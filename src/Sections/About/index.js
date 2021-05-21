@@ -94,7 +94,7 @@ const Rocket = styled.div`
 
     img {
       background: green;
-      max-width: 100%;
+      width: 300px;
     }
   }
 `;
