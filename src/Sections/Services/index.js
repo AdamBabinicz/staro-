@@ -325,7 +325,7 @@ const Services = () => {
         <Line id="line" />
         <Triangle id="triangle" />
       </Background>
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Starość"
           title={
@@ -357,7 +357,8 @@ const Services = () => {
         </OBJ>
         <SvgBlock svg="5.svg" />
       </Content>
-      <Content ref={addToRefs}>
+      <Content>
+        {/* ref={addToRefs} */}
         <TextBlock
           topic="starość"
           title={<h2>"Zmniejszenie sprawności fizycznej"</h2>}
