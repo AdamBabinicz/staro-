@@ -389,7 +389,7 @@ const Services = () => {
       <Content>
         <TextBlock
           topic="Starość"
-          title={<h1>Starzejące się zmysły</h1>}
+          title={<h2>Starzejące się zmysły</h2>}
           subText={
             <h5>
               Typowe dla procesu starzenia są zmiany w narządach zmysłu. W
