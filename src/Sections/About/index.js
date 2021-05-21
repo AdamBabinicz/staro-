@@ -84,7 +84,7 @@ const Rocket = styled.div`
   animation: ${move} 2.5s ease infinite;
 
   @media only Screen and (max-width: 40em) {
-    max-width: 50vw;
+    /* max-width: 50vw; */
     padding-bottom: 0;
 
     img {
