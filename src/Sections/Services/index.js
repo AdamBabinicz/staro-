@@ -23,6 +23,7 @@ const ServiceSection = styled.section`
     color: var(--nav3);
     font-style: italic;
     font-size: 0.8rem;
+    padding: 0 4rem;
   }
 `;
 
@@ -417,10 +418,10 @@ const Services = () => {
           <img src={Capsule} alt="Capsule Object" />
         </OBJ>
         <SvgBlock svg="7.svg" /> <br />
-        <p>
-          https://servitum.pl/poradniki/zrozumiec-starosc-jak-zmienia-sie-starzejacy-organizm
-        </p>
       </Content>
+      <p>
+        https://servitum.pl/poradniki/zrozumiec-starosc-jak-zmienia-sie-starzejacy-organizm
+      </p>
     </ServiceSection>
   );
 };
