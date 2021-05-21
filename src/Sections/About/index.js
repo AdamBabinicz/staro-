@@ -85,13 +85,17 @@ const Rocket = styled.div`
 
   img {
     width: 100%;
-    background: violet;
+    height: auto;
   }
   @media only Screen and (max-width: 40em) {
     /* max-width: 50vw; */
-    width: 100%;
-    height: auto;
     padding-bottom: 0;
+    background: violet;
+
+    img {
+      background: green;
+      max-width: 100%;
+    }
   }
 `;
 
