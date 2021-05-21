@@ -145,6 +145,7 @@ const CTA = styled.button`
   }
   @media only screen and (max-width: 48em) {
     padding: 0.2rem 1rem;
+    font-size: calc(0.8rem + 0.5vw);
   }
   &:hover {
     transform: scale(1.1);

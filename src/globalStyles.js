@@ -21,8 +21,8 @@ export const GlobalStyle = createGlobalStyle`
 }
 html{
   ${"" /* overflow-y: scroll; */}
-  scroll-behavior:smooth;
-
+    scroll-behavior:smooth;
+    overflow-x: hidden;
 }
     body,
     html,
