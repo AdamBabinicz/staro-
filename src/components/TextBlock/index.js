@@ -53,7 +53,7 @@ const SubText = styled.div`
   color: var(--nav3);
   @media only Screen and (max-width: 48em) {
     font-size: calc(1rem + 1.5vw);
-    color: green;
+    text-align: left;
   }
 `;
 
