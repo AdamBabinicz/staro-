@@ -82,12 +82,16 @@ const Rocket = styled.div`
   width: 40%;
   padding-bottom: 5rem;
   animation: ${move} 2.5s ease infinite;
+
+  img {
+    width: 100%;
+    background: violet;
+  }
   @media only Screen and (max-width: 40em) {
     /* max-width: 50vw; */
     width: 100%;
     height: auto;
     padding-bottom: 0;
-    background: violet;
   }
 `;
 
