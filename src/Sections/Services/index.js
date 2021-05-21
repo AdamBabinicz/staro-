@@ -114,6 +114,8 @@ const OBJ = styled.div`
   /* z-index: 1; */
   @media only Screen and (max-width: 48em) {
     opacity: 0.5;
+    width: 100%;
+    left: 10%;
   }
 `;
 
