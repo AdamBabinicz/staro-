@@ -133,18 +133,26 @@ const Contact = () => {
         <a
           href="https://www.facebook.com/people/Józef-Gutkowski/100012315634079"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           {" "}
           <img src={Facebook} alt="Facebook" />
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img src={LinkedId} alt="LinkedId" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com" target="_blank" rel="noreferrer noopener">
           <img src={Twitter} alt="Twitter" />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img src={Instagram} alt="Instagram" />
         </a>
       </Icons>

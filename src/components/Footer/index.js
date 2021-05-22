@@ -49,11 +49,19 @@ const Footer = () => {
       <LeftText>Radom 2021 - {new Date().getFullYear()}.</LeftText>
       <RightText>
         Skontaktuj się ze mną przez 😎
-        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img src={Twitter} alt="Twitter" />
         </a>
         &nbsp;
-        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img src={Instagram} alt="Instagram" />
         </a>
         &nbsp;
